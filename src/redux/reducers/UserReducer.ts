@@ -12,7 +12,7 @@ const initialState: UserAccReducerState = {
     errorMsz: ''
 }
 
-export const UserReducer = (action: any, state = initialState): UserAccReducerState => {
+export const UserAccReducer = (action: any, state = initialState): UserAccReducerState => {
     switch (action.type) {
         case UserActionTypes.USER_ACCOUNT_DETAILS_REQUEST: {
             return {
