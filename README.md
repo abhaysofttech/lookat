@@ -9,3 +9,8 @@
 # npm i yarn
 
 
+
+# -- Add redux into the application 
+# yarn add redux react-redux
+
+# Adding redux to the application, create a action of userAction with dynamic action call
