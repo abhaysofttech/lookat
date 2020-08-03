@@ -33,9 +33,12 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import {Provider} from 'react-redux'
+import store from './redux/reducers';
 
 const App: React.FC = () => (
-  <IonApp>
+  <Provider store={store}>
+     <IonApp>
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
@@ -61,6 +64,8 @@ const App: React.FC = () => (
       </IonTabs>
     </IonReactRouter>
   </IonApp>
+  </Provider> 
+ 
 );
 
 export default App;
