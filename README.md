@@ -3,3 +3,9 @@
 # npm run build
 
 # then run ionic capacitor add android
+
+# step 2
+# adding yarn to the application 
+# npm i yarn
+
+
